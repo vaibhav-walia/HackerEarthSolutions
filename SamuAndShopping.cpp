@@ -6,7 +6,6 @@ int t;//number of test cases
 int price[100000][3]={0};
 int cache[100000][3]={-1};
 int n;
-
 unsigned int costOfBuying(int fromShop, int item){
 	//if buying from last shop, return total price
 	if(fromShop == n-1){
